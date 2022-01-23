@@ -120,6 +120,11 @@ footer {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
   .container {
     display: flex;
     flex-direction: row;
@@ -133,7 +138,7 @@ section {
   min-height: 100vh;
 }
 
-navbar {
+nav {
   .navbar {
     display: flex;
     flex-direction: row;
@@ -327,6 +332,17 @@ navbar {
         margin-bottom: 0.75rem;
       }
     }
+  }
+}
+
+.video {
+  min-height: unset;
+  margin-block: 5rem;
+
+  .yt-video-frame {
+    border: none;
+    width: 1280px;
+    height: 720px;
   }
 }
 
@@ -557,7 +573,7 @@ navbar {
           outline-color: var(--secondary-color-1);
         }
 
-        button[type="submit"] {
+        input[type="submit"] {
           padding: 1rem 2rem;
           background-color: var(--primary-color);
           border: none;
@@ -568,7 +584,7 @@ navbar {
           width: 100%;
         }
 
-        button[type="submit"]:hover {
+        input[type="submit"]:hover {
           background-color: var(--hover-color);
         }
       }
