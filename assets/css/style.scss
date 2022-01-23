@@ -20,7 +20,8 @@
 body {
   background-color: var(--dark-background-color);
   color: var(--light-text-color);
-  scrolling-behavior: smooth;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -134,8 +135,15 @@ header {
   }
 }
 
+main {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
 section {
   min-height: 100vh;
+  scroll-snap-align: start;
 }
 
 nav {
