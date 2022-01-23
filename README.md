@@ -1,6 +1,6 @@
 # FreecodeCamp Responsive Web Design Project
 
-## Building a Survey Form
+## Building a Product Landing Page
 
 This is the one of five projects to earn the **Responsive Web Design Project certificate**.
 A complete course of **300h** to learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.
@@ -14,7 +14,7 @@ Time to put your newly learnt skills to work. By working on these projects, you 
 
 **Output**:
 
-![alt text](https://github.com/lanzoninicola/fcc-survey-form/blob/master/assets/images/output.png?raw=true)
+![alt text](https://github.com/lanzoninicola/fcc-product-landing-page/blob/master/fcc-product-page.png?raw=true)
 
 ### User Stories:
 
